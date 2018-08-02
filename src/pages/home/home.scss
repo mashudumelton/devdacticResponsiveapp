@@ -1,3 +1,22 @@
 page-home {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ay_rubQNawSDPQWwEmqouGm2scpf18Z0QR_goToq0L6HRZsl);
+    @media (max-width: 576px) {
+        ion-card-content {
+            font-size: 2rem !important;
+        }
+    }
+ 
+    @media (max-width: 820px) {
+        .mobile-fab {
+            display: none;
+        }
+    }
+ 
+    @media (min-width: 820px) {
+        .web-fab {
+            display: none;
+        }
+    }
 
-}
+
+ }
